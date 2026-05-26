@@ -30,6 +30,23 @@ O backend será desenvolvido inteiramente em Python.
 - Localização rápida de produto por código (tabela hash)
 
 ## Como executar o projeto
+iniciar o venv
+```
+    python -m venv .venv
+    .venv/scripts/Activate
+```
+
+instalar os pre requisitos
+```
+    pip install requirements.txt
+```
+
+iniciar back
+```
+uvicorn main:app --reload
+```
+
+
 
 ### Pré-requisitos
 - Node.js instalado
